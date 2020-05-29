@@ -1,0 +1,7 @@
+region          = "us-east1"
+zone            = "us-east1-b"
+gcp_project     = "vpc_gcp_terraform"
+serviceaccount  = "vpc_gcp_terraform.json"
+name            = "env_name"
+subnet_cidr     = "10.X.X.X/21"
+gcs_bucket      = "gs://vpc_gcp_terraform"
